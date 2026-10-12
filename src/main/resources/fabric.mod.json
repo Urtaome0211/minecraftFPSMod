@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "fpsmod",
+	"version": "${version}",
+	"name": "FPS Display",
+	"description": "在屏幕左侧中间显示 FPS 和 TPS。单机/局域网显示真实服务器 TPS，联机时显示带 ~ 前缀的本地 tick 率估算值。按 F9 切换显示/隐藏。",
+	"authors": [
+		"fhz11"
+	],
+	"license": "MIT",
+	"icon": "assets/fpsmod/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.fpsmod.FpsModClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
